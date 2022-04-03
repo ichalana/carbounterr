@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+@import url('https://github.com/robfletcher/gradle-compass');
+
+/* Card for quiz */
+
+.card_collection{
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+
+.card {
+    background: rgb(244, 255, 250);
+    border-radius: 2px;
+    display: inline-block;
+    height: 100%;
+    margin: 2rem;
+    position: relative;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

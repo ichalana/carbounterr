@@ -1,0 +1,24 @@
+body {
+  background: black;
+  color: #232525;
+}
+
+#title {
+  padding-top: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #232525;
+  text-align: center;
+}
+
+.blinking{
+    font-size: 60px;
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #232525;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #232525;    }
+}
