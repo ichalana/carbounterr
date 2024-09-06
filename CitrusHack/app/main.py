@@ -3,7 +3,7 @@ import pymongo
 import json
 from bson.objectid import ObjectId
 
-connectionString = "mongodb://Northstar:UYdGLGJ5qHpu9QBe@information-shard-00-00.aqqbz.mongodb.net:27017,information-shard-00-01.aqqbz.mongodb.net:27017,information-shard-00-02.aqqbz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-hjmyx7-shard-0&authSource=admin&retryWrites=true&w=majority"
+connectionString = "mongodb://Northstar:[PASSWORD]@information-shard-00-00.aqqbz.mongodb.net:27017,information-shard-00-01.aqqbz.mongodb.net:27017,information-shard-00-02.aqqbz.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-hjmyx7-shard-0&authSource=admin&retryWrites=true&w=majority"
 client = pymongo.MongoClient(connectionString) 
 database = client["Citrus"]
 collection = database["Stuff"]
